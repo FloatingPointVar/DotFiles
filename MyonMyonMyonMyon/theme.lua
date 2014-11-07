@@ -6,14 +6,14 @@ theme = {}
 
 theme.font          = "lemon 8"
 
-theme.bg_normal     = "#1b1b1bcc"
+theme.bg_normal     = "#1b1b1b"
 theme.bg_focus      = "#1b1b1bff"
 theme.bg_urgent     = "#1b1b1b00"
 theme.bg_minimize   = "#1b1b1b00"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#716d6a"
-theme.fg_focus      = "#5a8591"
+theme.fg_normal     = "#5c5a46"
+theme.fg_focus      = "#ddd8b0"
 theme.fg_urgent     = "#3d3d3d"
 theme.fg_minimize   = "#3d3d3d"
 
@@ -35,9 +35,10 @@ theme.tasklist_disable_icon = true
 -- Example:
 
 theme.taglist_bg_focus = "#1b1b1b"
-theme.taglist_fg_focus = "#685b93"
-theme.taglist_bg_normal= "#af9892"
-theme.taglist_fg_normal= "#685b93"
+theme.taglist_fg_urgent = "#ddd8b0"
+theme.taglist_fg_focus = "#a92f2f"
+theme.taglist_bg_normal = "#af9892"
+theme.taglist_fg_normal = "#685b93"
 
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
@@ -54,7 +55,7 @@ theme.menu_width  = 85
 theme.bg_widget = "#1b1b1b"
 
 -- Define the image to load
- theme.wallpaper = "/home/kitsune/skyscraper.png"
+ theme.wallpaper = "/home/kitsune/wallpapers/abstract.png"
 
 -- Define the icon theme for application icons. If not set then the icons 
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.

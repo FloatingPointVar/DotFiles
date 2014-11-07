@@ -26,7 +26,7 @@ cursor_blink = system
 cursor_shape = block
 
 # $BROWSER is used by default
-browser = chromium
+browser = firefox
 
 # word characters used for word selection
 # (default if unset: all graphic non-punctuation/space characters)
@@ -36,32 +36,32 @@ browser = chromium
 #size_hints = true
 
 [colors]
-foreground = #d4d6d3
+foreground = #ddd8b0
 foreground_bold = #b1bab5
 foreground_dim = #cfafaf
 background = #1b1b1b
-cursor = #d4d6d3
+cursor = #ddd8b0
 
 # if unset, will reverse foreground and background
 #highlight = #f2d7e8
 
 # colors from color0 to color254 can be set
 color0 = #1b1b1b
-color1 = #91665a
-color2 = #5a9166
-color3 = #85915a
-color4 = #685b93
-color5 = #915a85
-color6 = #5a8591
-color7 = #d4d6d3
-color8 = #716d6a
-color9 = #91665a
-color10 = #5a9166
-color11 = #85915a
-color12 = #685b93
-color13 = #915a85
-color14 = #5a8591
-color15 = #d4d6d3
+color1 = #771c23
+color2 = #951c1c
+color3 = #9f2424
+color4 = #a92f2f
+color5 = #b33c3c
+color6 = #bb4747
+color7 = #9c997e
+color8 = #5c5a46
+color9 = #9b252f
+color10 = #9c2222
+color11 = #a92f2f
+color12 = #ac3232
+color13 = #b64040
+color14 = #c35555
+color15 = #ddd8b0
 
 [hints]
 #font = cure.se 8

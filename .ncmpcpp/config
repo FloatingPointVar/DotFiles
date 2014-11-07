@@ -1,47 +1,65 @@
-# Ncmpcpp Config
+visualizer_fifo_path =  "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "2"
+visualizer_type = "wave" (spectrum/wave)
+visualizer_in_stereo = "no"
+#visualizer_look = "*"
+#visualizer_look = "●▋"
+#visualizer_look = "▋▋"
+visualizer_color = "cyan"
+progressbar_look = "███"
+#progressbar_look = "█ " #"■■■" #"◻■"
+
+#user_interface = "alternative"
+locked_screen_width_part = "60"
+ask_for_locked_screen_width_part = "no"
+
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "/home/kitsune/network/WORKGROUP/KAWAII-HDD/kitsune/music"
+mpd_connection_timeout = "5"
+mpd_crossfade_time = "0"
+##### delays #####
+## delay after playlist highlighting will be disabled (0 = don't disable)
+playlist_disable_highlight_delay = "0"
+song_list_format = "{$8(%l)$9 }{%t}|{$6%f$9}" #{%a  - }
+song_library_format = "{%n > }{%t}|{%f}"
+tag_editor_album_format = "{(%y) }%b"
+browser_playlist_prefix = "$7playlist$9 "
+selected_item_prefix = "$1"
+selected_item_suffix = "$9"
+
+song_window_title_format = "{%a - }{%t}|{%f}"
+
+song_columns_list_format = "(14)[blue]{l} (30)[magenta]{a} (53)[white]{t}" # (10)[black]{f}
+
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+#search_engine_display_mode = "classic" (classic/columns)
+incremental_seeking = "yes"
+autocenter_mode = "yes"
+header_visibility = "no"
+statusbar_visibility = "yes"
+follow_now_playing_lyrics = "yes"
+titles_visibility = "no"
+
+ignore_leading_the = "yes"
+
+colors_enabled = "yes"
+empty_tag_color = "magenta"
+header_window_color = "cyan"
+volume_color = "red"
+state_line_color = "white"
+#state_flags_color = "blue"
+main_window_color = "white"
+color1 = "blue"
+color2 = "magenta"
+main_window_highlight_color = "red"
+progressbar_color = "black"
+progressbar_elapsed_color = "magenta"
+statusbar_color = "white"
+active_column_color = "red"
+window_border_color = "white"
+active_window_border = "magenta"
 
 
- # MPD Settings
-
-   mpd_crossfade_time = "3"
-   mpd_music_dir = "~/music"
-
- # Format
-
-   song_list_format = "$5%n. $6%t $R$7%b"
-   song_status_format = " $8%t $0 "
-   song_window_title_format = "%t"
-   now_playing_prefix = ""
-   now_playing_suffix = ""
-   progressbar_look = " - " 
-   browser_playlist_prefix = " $2 ♥ $0 "
-
- # Colors
-
-   colors_enabled = "yes"
-   statusbar_color = "black"
-   empty_tag_color = "red"
-   main_window_color = "black" 
-   progressbar_color = "white"
-
- # Misc
-   
-   display_bitrate = "yes"
-   autocenter_mode = "yes"
-   centered_cursor = "yes"
-   titles_visibility = "yes"
-   statusbar_visibility = "yes"
-   empty_tag_marker=" -- ‼ -- "
- # ---   
-   mouse_support = "no"
-   header_visibility = "no"
-   display_remaining_time = "no"
-   display_screens_numbers_on_start = "no"
-   discard_colors_if_item_is_selected = "no"
-
- # Visualizer
-
-   visualizer_sync_interval = "1"
-   visualizer_output_name = "Visualizer"
-   visualizer_fifo_path = "/tmp/mpd.fifo"
-   visualizer_type = "spectrum" (spectrum/wave)

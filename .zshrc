@@ -12,5 +12,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 autoload -U colors && colors
-PROMPT="%{$fg[blue]%}┌ %{$fg[magenta]%}%n %{$fg[cyan]%}%~ %{$fg[blue]%}
+PROMPT="%{$fg[blue]%}┌ %{$fg[white]%}%n %{$reset_color%}%~ %{$fg[blue]%}
 └─ %{$reset_color%}"
