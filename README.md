@@ -5,3 +5,4 @@ NCMPCPP config doesnt work with newest version of ncmpcpp. :(
 11/7/2014
 NCMPCPP config works
 backing up for new installation
+
