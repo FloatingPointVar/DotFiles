@@ -31,7 +31,7 @@ selected_item_suffix = "$9"
 
 song_window_title_format = "{%a - }{%t}|{%f}"
 
-song_columns_list_format = "(14)[blue]{l} (30)[magenta]{a} (53)[white]{t}" # (10)[black]{f}
+song_columns_list_format = "(14)[cyan]{l} (30)[blue]{a} (53)[white]{t}" # (10)[black]{f}
 
 playlist_display_mode = "columns"
 browser_display_mode = "columns"
@@ -53,10 +53,10 @@ state_line_color = "white"
 #state_flags_color = "blue"
 main_window_color = "white"
 color1 = "blue"
-color2 = "magenta"
+color2 = "red"
 main_window_highlight_color = "red"
 progressbar_color = "black"
-progressbar_elapsed_color = "magenta"
+progressbar_elapsed_color = "cyan"
 statusbar_color = "white"
 active_column_color = "red"
 window_border_color = "white"

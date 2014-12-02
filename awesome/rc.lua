@@ -65,7 +65,7 @@ if beautiful.wallpaper then
     for s = 1, screen.count() do
         --gears.wallpaper.maximized(beautiful.wallpaper, s, true)
         if s < 2 then
-          gears.wallpaper.maximized("/home/kitsune/wallpapers/whites.png", s, 
+          gears.wallpaper.maximized("/home/kitsune/wallpapers/pixyoumuu.png", s, 
 true)
         else
           gears.wallpaper.maximized("/home/kitsune/wallpapers/wall.png", s, true)
@@ -79,7 +79,7 @@ end
  -- {{{ Tags
  tags = {
    settings = {
-     { names  = { "Myon!", " ⮼ ", " ⮕ "},
+     { names  = { " Myon! ", " Web ", " Media "},
 --       layout = { layouts[2], layouts[1], layouts[1] }
      },
      { names  = { "web", "media" },
@@ -128,7 +128,7 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 
 -- {{{ Wibox
 -- Create a textclock widget
- mytextclock = awful.widget.textclock(markup("#5c5a46"," Time:") .. markup("#9c997e"," %d") .. markup("#9c997e"," %b") .. markup("#ddd8b0"," %H:%M "))
+ mytextclock = awful.widget.textclock(markup("#545466"," Time:") .. markup("#8c8b8b"," %d") .. markup("#8c8b8b"," %b") .. markup("#b8b8c8"," %H:%M "))
 mytextclock = wibox.widget.background(mytextclock, "#1b1b1b")
  
 -- Create a Battery status box
@@ -136,7 +136,7 @@ batwidget = lain.widgets.bat({
     timeout = 30,
     battery = "C1FD",
     settings = function()
-    widget:set_markup(markup("#5c5a46"," Charge: ") .. markup( "#a92f2f",bat_now.perc .. "%","#1b1b1b"))
+    widget:set_markup(markup("#545466"," Charge: ") .. markup( "#7086b2",bat_now.perc .. "%","#1b1b1b"))
     end
 })
 batwidget = wibox.widget.background(batwidget, "#1b1b1b")

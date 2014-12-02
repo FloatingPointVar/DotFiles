@@ -36,7 +36,7 @@ browser = firefox
 #size_hints = true
 
 [colors]
-foreground = #ddd8b0
+foreground = #b8b8c8
 foreground_bold = #b1bab5
 foreground_dim = #cfafaf
 background = #1b1b1b
@@ -47,21 +47,21 @@ cursor = #ddd8b0
 
 # colors from color0 to color254 can be set
 color0 = #1b1b1b
-color1 = #771c23
-color2 = #951c1c
-color3 = #9f2424
-color4 = #a92f2f
-color5 = #b33c3c
-color6 = #bb4747
-color7 = #9c997e
-color8 = #5c5a46
-color9 = #9b252f
-color10 = #9c2222
-color11 = #a92f2f
-color12 = #ac3232
-color13 = #b64040
-color14 = #c35555
-color15 = #ddd8b0
+color1 = #8c5760
+color2 = #7b8c58
+color3 = #8c6e43
+color4 = #58698c
+color5 = #7b5e7d
+color6 = #66808c
+color7 = #8c8b8b
+color8 = #545466
+color9 = #b26f7a
+color10 = #9db270
+color11 = #b28c55
+color12 = #7085b2
+color13 = #9c77b2
+color14 = #82a2b2
+color15 = #b8b8c8
 
 [hints]
 #font = cure.se 8

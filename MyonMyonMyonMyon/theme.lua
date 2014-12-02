@@ -12,12 +12,12 @@ theme.bg_urgent     = "#1b1b1b00"
 theme.bg_minimize   = "#1b1b1b00"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#5c5a46"
-theme.fg_focus      = "#ddd8b0"
+theme.fg_normal     = "#545466"
+theme.fg_focus      = "#b8b8c8"
 theme.fg_urgent     = "#3d3d3d"
 theme.fg_minimize   = "#3d3d3d"
 
-theme.border_width  = 3
+theme.border_width  = 2
 theme.border_normal = "#1b1b1b"
 theme.border_focus  = "#1b1b1b"
 theme.border_marked = "#1b1b1b"
@@ -36,9 +36,9 @@ theme.tasklist_disable_icon = true
 
 theme.taglist_bg_focus = "#1b1b1b"
 theme.taglist_fg_urgent = "#ddd8b0"
-theme.taglist_fg_focus = "#a92f2f"
+theme.taglist_fg_focus = "#7086b2"
 theme.taglist_bg_normal = "#af9892"
-theme.taglist_fg_normal = "#685b93"
+theme.taglist_fg_normal = "#7086b2"
 
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
@@ -46,7 +46,7 @@ theme.taglist_fg_normal = "#685b93"
 -- theme.menu_submenu_icon = ""
 
 theme.menu_height = 12
-theme.menu_width  = 85
+theme.menu_width  = 100
 
 -- You can add as many variables as
 -- you wish and access them by using
