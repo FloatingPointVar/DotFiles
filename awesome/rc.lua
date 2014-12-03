@@ -48,7 +48,7 @@ beautiful.init("/home/kitsune/.config/MyonMyonMyonMyon/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "termite"
-editor = os.getenv("EDITOR") or "vim"
+editor = os.getenv("vim") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
 -- Default modkey.
@@ -101,8 +101,11 @@ settings = {
 	{ "synergy", "synergy"},
 	{ "nvidia", "nvidia-settings"}
 }
-
-
+programs = {
+	{ "weechat", "termite -e \"zsh -c 'wm-1; weechat'\""},
+	{ "ncmpcpp", "termite -e \"zsh -c 'wm-2; ncmpcpp'\""},
+	{ "ranger ", "termite -e \"zsh -c 'wm-3; ranger'\""}
+}
 -- {{{ Menu
 -- Create a laucher widget and a main menu
 myawesomemenu = {
@@ -115,7 +118,8 @@ myawesomemenu = {
 mymainmenu = awful.menu({ items = { { "kitsune", myawesomemenu },
                                     { "termite", terminal },
 				    { "internet", internet },
-				    { "settings", settings }
+				    { "settings", settings },
+				    { "programs", programs }
                                   }
                         })
 
